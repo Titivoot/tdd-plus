@@ -1,17 +1,18 @@
 // ==UserScript==
-// @name        webpack-userscript-template
-// @name:cn     中文名
-// @name:en     english name
-// @namespace   https://trim21.me/
-// @version     0.0.1
-// @author      Trim21 <trim21me@gmail.com>
-// @source      https://github.com/trim21/webpack-userscript-template
-// @match       *://www.example.com/
-// @match       *://example.com/*
-// @require     https://cdn.jsdelivr.net/npm/jquery@^3.7.1/dist/jquery.min.js
-// @grant       GM.xmlHttpRequest
-// @connect     httpbin.org
-// @run-at      document-end
+// @name          TDD+
+// @description   Improve ux and add features to TDD
+// @namespace     https://5nYqnHvk.xyz/
+// @version       0.0.1
+// @author        5nYqnHvk <kind.sock5986@fastmail.com>
+// @source        https://github.com/trim21/webpack-userscript-template
+// @match         https://www.torrentdd.com/
+// @match         https://torrentdd.com/
+// @match         https://www.torrentdd.com/*
+// @match         https://torrentdd.com/*
+// @require       https://cdn.jsdelivr.net/npm/jquery@^3.7.1/dist/jquery.min.js
+// @grant         GM.xmlHttpRequest
+// @connect       httpbin.org
+// @run-at        document-end
 // ==/UserScript==
 
 /******/ (() => { // webpackBootstrap
@@ -34,7 +35,7 @@
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
-  background-color: yellow;
+  background-color: lime;
   z-index: 20;
 }
 `, ""]);
