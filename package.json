@@ -1,17 +1,17 @@
 {
   "name": "webpack-userscript-template",
-  "description": "Build your UserScript with webpack",
+  "description": "Improve ux and add features to TDD",
   "version": "0.0.1",
   "author": {
-    "name": "Trim21",
-    "email": "trim21me@gmail.com"
+    "name": "5nYqnHvk",
+    "email": "kind.sock5986@fastmail.com"
   },
   "scripts": {
     "format": "prettier -w ./",
     "analize": "cross-env npm_config_report=true npm run build",
     "build": "webpack --config config/webpack.config.prod.cjs",
     "dev": "webpack --config config/webpack.config.dev.cjs",
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint-staged": "lint-staged"
   },
   "repository": {

@@ -1,5 +1,6 @@
 const {
   author,
+  description,
   dependencies,
   repository,
   version,
@@ -7,16 +8,19 @@ const {
 
 module.exports = {
   name: {
-    $: "webpack-userscript-template",
-    cn: "中文名",
-    en: "english name",
+    $: "TDD+",
   },
-  namespace: "https://trim21.me/",
+  description: description,
+  namespace: "https://5nYqnHvk.xyz/",
   version: version,
   author: author,
   source: repository.url,
-  // 'license': 'MIT',
-  match: ["*://www.example.com/", "*://example.com/*"],
+  match: [
+    "https://www.torrentdd.com/",
+    "https://torrentdd.com/",
+    "https://www.torrentdd.com/*",
+    "https://torrentdd.com/*"
+  ],
   require: [
     `https://cdn.jsdelivr.net/npm/jquery@${dependencies.jquery}/dist/jquery.min.js`,
   ],
